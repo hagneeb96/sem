@@ -9,7 +9,8 @@ WHERE AppID ='$nid'");
 $qe=mysqli_query($conn,"delete from registration where AppID='$nid'");
 
 
-header('location:index.php?page=afterlogin');
+header('location:index.php?page=application');
+
 
 ?>
 
